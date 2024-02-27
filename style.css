@@ -1,0 +1,120 @@
+main
+{
+    width: 960px;
+    max-width: (100%-30px);
+    text-align: center;
+    background-color: beige;
+    margin: auto;
+}
+img
+{
+    vertical-align: bottom;
+}
+header
+{
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+}
+header li{
+    display: inline-block;
+}
+header a
+{
+    padding: 5px;
+    margin: 5px;
+    line-height: 40px;
+    text-decoration: none;
+    transition: background-color 1s 0s linear;
+    color: white;
+}
+header a:hover
+{
+    background-color: #0ff;
+}
+.banner
+{
+    width: 100%;
+}
+.banner img
+{
+    width: 100%;
+}
+.containTitle
+{
+    padding: 10px;
+}
+.container .flexItem
+{
+    justify-content:center;
+    display: flex;
+}
+.item
+{
+    border-radius: 10px;
+    width: 30%;
+    height: 500px;
+    margin: 5px;
+    background-color: black;
+}
+h2{
+    padding: 5px 0 0 5px ;
+    font-size: 20px;
+    text-align: left;
+}
+.myphoto
+{
+    margin: 10px 50px 0px 50px;
+    width: 150px;
+}
+.description
+{
+    padding: 10px;
+    text-align: left;
+    line-height: 25px;
+}
+.wrap{
+    margin: auto;
+    width: 70%;
+    display: flex;
+}
+.description a
+{
+    text-decoration: none;
+    color:black;
+    font-style:oblique;
+}
+.description a:hover
+{
+    text-decoration: none;
+    color:blue;
+    font-style:oblique;
+}
+section
+{
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px 5px rgb(203, 203, 203);
+    height: auto;
+}
+table
+{
+    margin: auto;
+}
+td {
+    margin: 10px;
+    padding: 10px;
+}
+.footer
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0ff;
+    text-align: center;
+}
+@media screen and (max-width < 768) 
+{
+    
+}
