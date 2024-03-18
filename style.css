@@ -106,6 +106,13 @@ td {
     margin: 10px;
     padding: 10px;
 }
+tr
+{
+    text-align: left;
+}
+.youtubevideo
+{
+}
 .footer
 {
     width: 100%;
